@@ -4,8 +4,8 @@ on:
   push:
     paths:
       - catalog-service/**
-      - branches:
-          - '**'
+    branches:
+      - '**'
 
 jobs:
   build:
